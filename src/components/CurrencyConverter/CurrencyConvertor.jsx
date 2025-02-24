@@ -31,7 +31,9 @@ const CurrencyConvertor = () => {
 		>
 			<div className="w-full">
 				<div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
-					<h1 className="text-xl text-center m-2">currConvo</h1>
+					<h1 className="text-xl text-center m-2 text-zinc-950 font-semibold">
+						currConvo
+					</h1>
 					<form
 						onSubmit={(e) => {
 							e.preventDefault();
